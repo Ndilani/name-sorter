@@ -19,7 +19,7 @@ In order to run this project through  eclipse IDE we can clone this project into
 
 When runing the project using cmd we have to run each java file separatly. After creating the .class files of each java classes we can run the project inside the bin folder by giving following command.
 
-![image](https://user-images.githubusercontent.com/30286530/146782767-77f71539-b44c-4dfe-9a72-aa6dec346cbf.png)
+![image](https://user-images.githubusercontent.com/30286530/146847241-0d7cc68d-c9ac-49de-80ed-3efccecd20c0.png)
 
 ## Unit Test Coverage
 
