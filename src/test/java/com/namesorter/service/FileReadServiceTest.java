@@ -42,8 +42,8 @@ public class FileReadServiceTest {
 		try {
 			path = Files.createTempFile(Paths.get(".\\"), "testfile", ".txt");
 			Files.write(path, LONG_NAME.getBytes(StandardCharsets.UTF_8));
-			File f = path.getFileName().toFile();
-			fileName = f.getName();
+			File file = path.getFileName().toFile();
+			fileName = file.getName();
 		} catch (IOException ioe) {
 			System.err.println("error creating temporary test file in " + this.getClass().getSimpleName());
 		}
@@ -61,8 +61,8 @@ public class FileReadServiceTest {
 
 			path = Files.createTempFile(Paths.get(".\\"), "testfile", ".txt");
 			Files.write(path, "Clarke".getBytes(StandardCharsets.UTF_8));
-			File f = path.getFileName().toFile();
-			fileName = f.getName();
+			File file = path.getFileName().toFile();
+			fileName = file.getName();
 
 		} catch (IOException ioe) {
 			System.err.println("error creating temporary test file in " + this.getClass().getSimpleName());
@@ -81,8 +81,8 @@ public class FileReadServiceTest {
 
 			path = Files.createTempFile(Paths.get("src\\"), "testfile", ".txt");
 			Files.write(path, VALID_NAME.getBytes(StandardCharsets.UTF_8));
-			File f = path.getFileName().toFile();
-			fileName = f.getName();
+			File file = path.getFileName().toFile();
+			fileName = file.getName();
 
 		} catch (IOException ioe) {
 			System.err.println("error creating temporary test file in " + this.getClass().getSimpleName());
