@@ -12,6 +12,8 @@ This java project will get the input text file name (which include list of names
 ## Technologies
 Java
 
+JUnit
+
 ## Setup
 In order to run this project through  eclipse IDE we can clone this project into eclips work space and import it as existing java project and give the txt file nam "unsorted-names-list.txt" as the argument.
 
